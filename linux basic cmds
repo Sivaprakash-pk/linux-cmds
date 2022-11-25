@@ -1,0 +1,250 @@
+ 1  ls
+    2  pwd
+    3  cd .. \\ ..
+    4  cd home
+    5  ok zen did
+    6  pwd
+    7  ls
+    8  cd desktop
+    9  cd Desktop
+   10  cd pk
+   11  cd..
+   12  cd ..
+   13  ls
+   14  pwd
+   15  cd ..
+   16  ls
+   17  cd ..
+   18  ls
+   19  cd ../..
+   20  cd
+   21  c
+   22  cd
+   23  clear
+   24  cd
+   25  ls
+   26  pwd
+   27  cd Documents
+   28  mkdir dir1
+   29  ls
+   30  mkdir dir2 dir3
+   31  ls
+   32  mkdir -p dir1/dir11 dir12
+   33  cd dir1
+   34  ls
+   35  cd ..
+   36  ls
+   37  mkdir -p dir2/dir13/dir14
+   38  cd dir2
+   39  cd dir13
+   40  ls
+   41  cd ..
+   42  cd
+   43  cd Documents
+   44  cd dir2
+   45  cd
+   46  pw
+   47  pwd
+   48  cd Documents/
+   49  cat file1
+   50  cat > file1
+   51  ls
+   52  cat file1
+   53  cat >file2
+   54  ls
+   55  cat file2
+   56  cat file1 file2 > file3
+   57  cat file3
+   58  cat >> file3
+   59  cat file3
+   60  touch test1
+   61  cat test1
+   62  ls
+   63  cat >> test1
+   64  cat test1
+   65  touch test4 test2 test3 test5.txt
+   66  ls
+   67  ls -a
+   68  touch .hid.txt .hidtest.txt
+   69  ls -a
+   70  ls
+   71  touch trp{1..10}
+   72  ls
+   73  cat > tfp{1..5}
+   74  vi > tfp{1..5}
+   75  vi file10
+   76  cat file10
+   77  cp file10 file20
+   78  ls
+   79  cat file20
+   80  cp file10 file30
+   81  cat file30
+   82  cp file10 file20
+   83  cat file20
+   84  cp file1 file20
+   85  cat file20
+   86  mv file20 file15
+   87  cat file15
+   88  ls -l
+   89  history
+    1  ls
+    2  pwd
+    3  cd .. \\ ..
+    4  cd home
+    5  ok zen did
+    6  pwd
+    7  ls
+    8  cd desktop
+    9  cd Desktop
+   10  cd pk
+   11  cd..
+   12  cd ..
+   13  ls
+   14  pwd
+   15  cd ..
+   16  ls
+   17  cd ..
+   18  ls
+   19  cd ../..
+   20  cd
+   21  c
+   22  cd
+   23  clear
+   24  cd
+   25  ls
+   26  pwd
+   27  cd Documents
+   28  mkdir dir1
+   29  ls
+   30  mkdir dir2 dir3
+   31  ls
+   32  mkdir -p dir1/dir11 dir12
+   33  cd dir1
+   34  ls
+   35  cd ..
+   36  ls
+   37  mkdir -p dir2/dir13/dir14
+   38  cd dir2
+   39  cd dir13
+   40  ls
+   41  cd ..
+   42  cd
+   43  cd Documents
+   44  cd dir2
+   45  cd
+   46  pw
+   47  pwd
+   48  cd Documents/
+   49  cat file1
+   50  cat > file1
+   51  ls
+   52  cat file1
+   53  cat >file2
+   54  ls
+   55  cat file2
+   56  cat file1 file2 > file3
+   57  cat file3
+   58  cat >> file3
+   59  cat file3
+   60  touch test1
+   61  cat test1
+   62  ls
+   63  cat >> test1
+   64  cat test1
+   65  touch test4 test2 test3 test5.txt
+   66  ls
+   67  ls -a
+   68  touch .hid.txt .hidtest.txt
+   69  ls -a
+   70  ls
+   71  touch trp{1..10}
+   72  ls
+   73  cat > tfp{1..5}
+   74  vi > tfp{1..5}
+   75  vi file10
+   76  cat file10
+   77  cp file10 file20
+   78  ls
+   79  cat file20
+   80  cp file10 file30
+   81  cat file30
+   82  cp file10 file20
+   83  cat file20
+   84  cp file1 file20
+   85  cat file20
+   86  mv file20 file15
+   87  cat file15
+   88  ls -l
+   89  history
+   90  logout
+   91  exit
+   92  init 0
+   93  pwd
+   94  ls
+   95  cd Documents/
+   96  ls
+   97  rmdir dir3
+   98  ls
+   99  cd dir2
+  100  ls
+  101  cd ..
+  102  rmdir -p dir2/dir13
+  103  cd dir2
+  104  ls
+  105  cd dir13
+  106  ls
+  107  cd dir14
+  108  ls
+  109  cd ..
+  110  rmdir dir2/dir13/dir14
+  111  ls
+  112  cd dir2
+  113  ls
+  114  cd ..
+  115  rmdir -p dir2/dir13/dir14
+  116  cd dir2
+  117  ls
+  118  cd dir13
+  119  ls
+  120  cd ..
+  121  rmdir -p dir2/dir13
+  122  ls
+  123  rmdir -pv dir12
+  124  rmdir dir12
+  125  rm -r dir12
+  126  ls
+  127  rm -r dir1 file10
+  128  ls
+  129  cat > longfile
+  130  ls
+  131  ls | head longfile
+  132  ls | head longfile -5
+  133  ls | head -5 longfile
+  134  ls -a | head -5 longfile
+  135  ls -a | head
+  136  ls -a | head -5
+  137  ls -a | tail -5
+  138  ls -a | tail -5 longfile
+  139  ls -a | tail longfile
+  140  ls -a | less longfile
+  141  cat > text
+  142  cat text
+  143  grep "of" text
+  144  grep -c "of" text
+  145  grep -h "of" text
+  146  grep -n "of" text
+  147  grep -i "of" text
+  148  grep -o "of" text
+  149  grep -v "of" text
+  150  grep -e "of" -e "Linux" text
+  151  ls
+  152  mkdir dir11 dir12 dir13
+  153  cd dir11
+  154  mkdir dir21 dir22
+  155  cd ..
+  156  find -name"file30"
+  157  find -name "file30"
+  158  find -name "dir21"
+  159  find . -name "file1"
+  160  find / -name "file2"
+  161  history
