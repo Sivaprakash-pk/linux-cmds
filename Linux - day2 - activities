@@ -1,0 +1,14 @@
+ Step 1 : Created Demo directory then inside created demo.txt file
+  198  pwd
+  199  ls
+  200  mkdir demo
+  201  ls
+  202  cd demo
+  203  touch demo.txt
+  204  ls
+  
+ Step 2 : Changed the permission for demo.txt file that any user can read it, group can read/write & owner can read/write/execute it. 
+  205  ls -al
+  206  chmod 764 demo.txt
+  207  ls -al
+  208  history
