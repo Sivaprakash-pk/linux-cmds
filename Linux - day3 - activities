@@ -1,0 +1,26 @@
+1. Get me the IP address of a particular domain (guvi.in)
+  #ping -c 10 ping guvi.in
+  ** IP address of a domain (guvi.in) is 172.67.144.22
+
+2. How do I find my CPU/memory usage of my server?
+  #cat /proc/meminfo       --> Memory usage information stored in this directory
+  #top                     --> it used to show the List of processes,CPU/memory usage
+  #sudo apt  install htop  --> to install 'htop' package
+  #htop                    --> easier interface to show the List of processes,CPU/memory usage
+
+3. Test the connectivity between 2 nodes?
+  #ping -c 10 117.217.160.23   --> pinged my BSNL static ip
+--- 117.217.160.23 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 14.834/15.633/16.091/0.458 ms
+
+  #ping -c 10 127.0.0.1        --> pinged my local host ip
+--- 127.0.0.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9221ms
+rtt min/avg/max/mdev = 0.036/0.050/0.054/0.005 ms
+
+4.I have deployed an application in guvi.com:9000, and logs show my app is running, but I’m unable to view the page. Check whether my port is open or not ?
+  #telnet guvi.com 9000     --> using this command to check the port '9000' is opened or close
+  #ss -lntu                 --> it will list the all opened port details
+  #netstat -na | grep :9000 --> to check port details related to '9000'
+  #sudo ufw allow 9000      --> to open the port '9000'  / 'ufw'- ubuntu or ubuntu firewall system based command.
